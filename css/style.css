@@ -21,7 +21,8 @@ body{
 } */
 
 .herocontent {
-    background-image: url('https://static.vecteezy.com/system/resources/previews/026/604/317/large_2x/summer-vanilla-perfume-background-with-copy-space-bright-pink-vanilla-perfume-banner-for-summer-ai-generative-free-photo.jpg');
+    /* background-image: url('https://static.vecteezy.com/system/resources/previews/026/604/317/large_2x/summer-vanilla-perfume-background-with-copy-space-bright-pink-vanilla-perfume-banner-for-summer-ai-generative-free-photo.jpg'); */
+    background-image: url('../images/2057.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat, repeat;
@@ -60,10 +61,26 @@ body{
   /* height: auto; */
 }
 
+.background-RightText{
+  background-image: url('../images/abstrack.jpg');
+  background-size: cover; /* Mengatur gambar agar menutupi seluruh area background */
+  background-position: center; /* Mengatur posisi gambar ke tengah */
+  width: 100%; /* Mengisi seluruh lebar dari parent (w-3/5) */
+  height: 700px; /* Menyesuaikan tinggi gambar */
+}
+
 .image-background2 {
   background-image: url('https://picsum.photos/600/298');
   background-size: cover; /* Mengatur gambar agar menutupi seluruh area background */
   background-position: center; /* Mengatur posisi gambar ke tengah */
   width: 100%; /* Mengisi seluruh lebar dari parent (w-3/5) */
   height: 420px; /* Menyesuaikan tinggi gambar */
+}
+
+.image-background3 {
+  background-image: url('https://picsum.photos/600/260');
+  background-size: cover; /* Mengatur gambar agar menutupi seluruh area background */
+  background-position: center; /* Mengatur posisi gambar ke tengah */
+  width: 100%; /* Mengisi seluruh lebar dari parent (w-3/5) */
+  height: 250px; /* Menyesuaikan tinggi gambar */
 }
