@@ -1,24 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Whisper&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+.jost-font {
   font-family: 'Jost', sans-serif;
 }
-/* .text-goggle{
-    font-family: 'Merriweather', serif;
-    font-family: 'Whisper', cursive;
-}
-.text-goggle1{
-  font-family: 'Red Hat Display', sans-serif;
-  
-}
-.text-goggle2{
-    font-family: 'Outfit', sans-serif;
-}
-
-.text-goggle3{
-    font-family: 'Noto Sans', sans-serif;
-} */
 
 .herocontent {
     /* background-image: url('https://static.vecteezy.com/system/resources/previews/026/604/317/large_2x/summer-vanilla-perfume-background-with-copy-space-bright-pink-vanilla-perfume-banner-for-summer-ai-generative-free-photo.jpg'); */
@@ -52,21 +37,13 @@ body{
 }
 
 .carousel-slide-top {
-  flex: 0 0 30.3333333%; /* Menampilkan 5 gambar sekaligus, jika ingin 6 ubah menjadi 16.6667% */
+  flex: 0 0 20%; /* Menampilkan 5 gambar sekaligus, jika ingin 6 ubah menjadi 16.6667% */
   /* box-sizing: border-box; */
 }
 
 .carousel-slide img {
   /* width: 100%; */
   /* height: auto; */
-}
-
-.background-RightText{
-  background-image: url('../images/abstrack.jpg');
-  background-size: cover; /* Mengatur gambar agar menutupi seluruh area background */
-  background-position: center; /* Mengatur posisi gambar ke tengah */
-  width: 100%; /* Mengisi seluruh lebar dari parent (w-3/5) */
-  height: 700px; /* Menyesuaikan tinggi gambar */
 }
 
 .image-background2 {
