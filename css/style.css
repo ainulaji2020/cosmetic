@@ -53,11 +53,3 @@
   width: 100%; /* Mengisi seluruh lebar dari parent (w-3/5) */
   height: 420px; /* Menyesuaikan tinggi gambar */
 }
-
-.image-background3 {
-  background-image: url('https://picsum.photos/600/260');
-  background-size: cover; /* Mengatur gambar agar menutupi seluruh area background */
-  background-position: center; /* Mengatur posisi gambar ke tengah */
-  width: 100%; /* Mengisi seluruh lebar dari parent (w-3/5) */
-  height: 250px; /* Menyesuaikan tinggi gambar */
-}
