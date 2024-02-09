@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  setInterval(autoplay, 1000);
+  setInterval(autoplay, 3000);
 
   // Pause autoplay on mouse enter
   slides.addEventListener("mouseenter", function () {
